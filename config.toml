@@ -1,0 +1,149 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "World of Wheels"
+theme="restaurant"
+summaryLength = "7"
+
+# Menu
+[menu]
+	
+	[[menu.nav]]
+    [[menu.nav]]
+    name = "About"
+    URL = "about-us"
+    weight = 1
+
+    [[menu.nav]]
+    name = "Products"
+    URL = "slider"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Why Us"
+    URL = "price"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Contact Us"
+    URL = "contact-us"
+    weight = 4
+
+# Global Settings
+[params]
+logo = "images/headd1.gif"
+
+#gallery item
+[params.gallery]
+enable = true
+title= "Our <span>Products</span>"
+
+[[params.gallery.item]]
+img = "images/4.jpg"
+
+[[params.gallery.item]]
+img = "images/5.jpg"
+
+[[params.gallery.item]]
+img = "images/10.jpg"
+
+[[params.gallery.item]]
+img = "images/11.jpg"
+
+[[params.gallery.item]]
+img = "images/15.jpg"
+
+[[params.gallery.item]]
+img = "images/16.jpg"
+
+[[params.gallery.item]]
+img = "images/17.jpg"
+
+[params.about]
+enable = true
+title= "World of Wheels"
+bgImage = "images/3.jpg"
+description= "In the 19 years that World of Wheels have been established manufacturing Retail, Catering and Promotional Barrows, Handcarts and Carriages, a vast amount of information both on design and manufacturing techniques has been achieved. During this period we have supplied to well over 4,800satisfied customers within the full spectrum of industry, trade and commerce, thus gaining most of our orders from recommendation, which shows how satisfied our customers are."
+
+
+#Why Us
+[params.whyUs]
+enable = true
+title = "Why Us?"
+
+[[params.whyUs.item]]
+title="Quality"
+description= "All units are built to last around a heavy duty framework, using quality selected timbers, body axle and wheels, with eye-catching quality designs, coach line work, signage, canopies, high-gloss finishes, or the natural look if required. We always achieve the customers requirements."
+
+[[params.whyUs.item]]
+title="Operators Needs"
+description= "Expertise gained over the years, also ensures that the operator has all the equipment to his/her requirements, to ensure a fast and efficient service in order to maximise revenue generated. This includes pullout till/wrapping trays (push in when not in use), full under storage, additional roof storage when required, along with bag hooks, storage containers, display shelves, extended canopies, security shutters or blinds, hidden cash boxes, adequate lighting and plug sockets."
+
+[[params.whyUs.item]]
+title="Make Passers-By Stop & Buy"
+description= "It has been statistically proven by a number of our client groups, including large catering and retail outlets in this country and abroad that sales are substantially increased from 40% to around 80% with a World of Wheels Barrow. Our Barrows are used as either a promotional display aid working within a retail outlet, or as an independent trader, either internal or externally sited."
+
+[[params.whyUs.item]]
+title="Retail"
+description= "Along with the eye-catching appearance of a World of Wheels Barrow, the display of goods is a priority in order to achieve maximum visual effect. Displays are designed either as a fixed product or display modules, so that display items can be changed to suit the products, thus enabling total versatility. All designs are discussed with the customer before manufacture."
+
+[[params.whyUs.item]]
+title="Catering"
+description= "Catering units can also be used as a total independent unit, or as an attractive part of a self-service counter. All catering equipment can be incorporated into a World of Wheels Barrow to include, Bain Maries: hot plates, griddles, Cold Wells refrigeration with either electrical or Calor gas supply. To conform with hygiene regulation, tiled or stainless steel surfaces are used and a wash-up unit can be fitted within the barrow storage area if required. Cash-till pullouts, along with work/food preparation trays are incorporated with a condiment tray-slide for customers, adding to the professional and eye-catching appearance."
+
+[[params.whyUs.item]]
+title="Mobility"
+description= "All barrows are extremely mobile. The 6ft x 3ft (1830mm x 900mm) display can be easily moved on its cart wheels from site to site. The 8ft x 4ft (2440mm x 1220mm) with full lockable storage, can be manufactured to run on its cart wheels or running swivel castors, with cosmetic wheels just raised from the floor to give the look of a traditional unit."
+
+[[params.whyUs.item]]
+title="Roof Designs"
+description= "Generally, roof canopies are used as an attractive finishing touch to a quality body, but there are a number of alternatives (shingle timber tiles, pitched, slatted timbers, full-boarded). Extended Roofs are used if the barrow unit is sited externally, thus giving protection to both the operator and customer in poor weather conditions."
+
+[[params.whyUs.item]]
+title="Security Shutters"
+description= "As an alternative to metal roller shutters which are very expensive all round, plywood slide-in shutters can be used when serving from all round the unit, and replaced when not in use. A dual purpose back shutter can be fixed incorporating an internal display, with adjustable shelves, this applies to the two end door shutters, which are hinged, and when open give double the length of barrow unit, making full eye-catching display. The front two shutters can be stored when the unit is open or used as an advertising A-board alongside of the unit. If the barrow or kiosk is sited in a security conscious environment, the easy to operate roll-down canopy type material blinds are used and zipped and padlocked in each corner when the unit is not in use."
+
+[[params.whyUs.item]]
+title="Versatility"
+description= "Within the retail and catering industries many items all over the world are being sold off World of Wheels Barrows, Kiosks or Units. The variation is quite unique from flowers, fruit & veg, jewellery, to prize crane grab machines, ice cream, sandwiches, hot dogs, jacket potatoes, pizzas, soup and coffee. Perhaps an example of the unusual is the Chocolate Pick 'n' Mix sweets barrows with air-conditioning on the streets of Cairo and Alexandra in Egypt, which were all designed, manufactured and shipped by World of Wheels."
+
+#Contact 
+[params.contact]
+enable = true
+title= "Contact Us"
+
+
+#Footer 
+[params.footer]
+enable = true
+
+[[params.footer.contactItem]]
+title="Telephone"
+icon = "fa fa-phone"
+content = "01626 776776"
+
+
+[[params.footer.contactItem]]
+title="Location"
+icon = "fa fa-map-marker"
+content = "Teignmouth, UK"
+
+[[params.footer.contactItem]]
+title="Fax"
+icon = "fa fa-fax"
+content = "01626 776776"
+
+#Footer Copyright
+
+#Footer Copyright Text
+[params.footerCopyright]
+enable = true
+Text = "Copyright World of Wheels 2019 - All Rights Reserved"
+
+
+
+
+
+
+
+
+
