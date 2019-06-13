@@ -1,0 +1,64 @@
+{{ if .Site.Params.footer.enable }}
+<section id="footer" style="padding-bottom: 0; padding-top:0">
+    <div class="col-md-12">
+        <div class="block wow fadeInLeft"  data-wow-delay="200ms">
+            <!-- <h3>{{ with .Site.Params.footer.contactInfoTitle }} {{ . | safeHTML }} {{ end }}</h3> -->
+            <div class="info" style="padding-top:20px">
+                <ul style="padding: 0 10%; width: 100%; display: flex; flex-direction: row; flex-wrap:wrap  ;align-items: center; justify-items: center">
+                    {{ range $.Site.Params.footer.contactItem }}
+                    <li style="flex: 1; width: 70px; margin: 10px">
+                        <h4 style="text-align: center"><i style="margin: 0; color: #FF4F02;" class="{{.icon}}"></i></h4>
+                        <p style="padding: 0; text-align: center">{{ .content }}</p>
+                        
+                    </li>
+                    {{end}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+
+{{ if .Site.Params.footerCopyright.enable }}
+<footer id="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="block">
+                    <p>{{ with .Site.Params.footerCopyright.text }} {{ . }} {{ end }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{{ end }}
+
+
+{{"<!-- Main jQuery -->" | safeHTML}}
+<script type="text/javascript" src="{{ "js/jquery.min.js" | absURL}}"></script>
+
+{{"<!-- Bootstrap 3.1 -->" | safeHTML}}
+<script type="text/javascript" src="{{ "js/bootstrap.min.js" | absURL}}"></script>
+
+
+{{"<!-- jQuery Nav -->" | safeHTML}}
+<script src="{{ "js/jquery.nav.js" | absURL}}"></script>
+
+{{"<!-- jQuery Sticky -->" | safeHTML}}
+<script src="{{ "js/jquery.sticky.js" | absURL}}"></script>
+
+{{"<!-- Bootstrap js -->" | safeHTML}}
+<script src="{{ "js/bootstrap.min.js" | absURL}}"></script>
+
+{{"<!-- Plugin js -->" | safeHTML}}
+<script src="{{ "js/plugins.js" | absURL}}"></script>
+
+{{"<!-- wow js for animation -->" | safeHTML}}
+<script src="{{ "js/wow.min.js" | absURL}}"></script>
+
+{{"<!-- Main Js file -->" | safeHTML}}
+<script src="{{ "js/main.js" | absURL}}"></script>
+
+</body>
+</html>

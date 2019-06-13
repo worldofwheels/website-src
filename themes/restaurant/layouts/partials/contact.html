@@ -1,0 +1,28 @@
+{{ if .Site.Params.contact.enable }}
+	<section id="contact-us" style="padding-top: 0; padding-bottom: 50px">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-12">
+	                <div class="block">
+	                    <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ with .Site.Params.contact.title }} {{ . | safeHTML }} {{ end }}</h1>
+											<h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">{{ with .Site.Params.contact.subtitle }} {{ . }} {{ end }}</h3>
+											<form action="https://getform.io/f/7965a3cd-e076-4eac-af8e-79ff8d917520" method="POST">
+												<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="100ms">
+														<input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Write your full name here...">
+												</div>
+												<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
+														<input type="text" name="email" class="form-control" placeholder="Write your email address here...">
+												</div>
+												<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">
+														<textarea class="form-control" name="text" rows="3" placeholder="Write your message here..."></textarea>
+												</div>
+											</form>
+											<div style="width: 100%">
+													<a id="submitlink" class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="400ms" href="#" role="button" style="display:block;float: none;margin: 0 auto;">send your message</a>
+											</div>
+	                </div>
+	            </div><!-- .col-md-12 close -->
+	        </div><!-- .row close -->
+	    </div><!-- .container close -->
+	</section><!-- #contact-us close -->
+{{end}}
