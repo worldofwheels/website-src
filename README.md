@@ -11,7 +11,6 @@ $ hugo server -D
 2. Remove the public directory and force a rebuild
 
 ```bash
-$ rm -rf public/
 $ hugo
 ```
 
